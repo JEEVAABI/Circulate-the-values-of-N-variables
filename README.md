@@ -18,7 +18,19 @@ print the values to circulate.
 ### Step 6: 
 End the program
 ## Program:
+```
+#Program to circulate N values.
+#Developed by: A.JEEVA ABISHAKE
+#RegisterNumber:21500568
+def circulate():
+    l=[10,20,30,40,50,60]
+    n=int(input())
+    output=l[n:]+l[:n]
+    print("After circulating the values are:",output)
+ ```
 
 ## Output:
+![output 1](SEW1.png)
 
 ## Result:
+Thus program executed.
